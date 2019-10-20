@@ -1,0 +1,16 @@
+PODS:
+  - RKPieChart (0.0.1)
+
+DEPENDENCIES:
+  - RKPieChart
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - RKPieChart
+
+SPEC CHECKSUMS:
+  RKPieChart: 8e643c505d24e61574f3a2fd6bd807403840b24b
+
+PODFILE CHECKSUM: 634500375167ab0ea46c5de1468f0fac540cc114
+
+COCOAPODS: 1.5.2

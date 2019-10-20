@@ -1,0 +1,773 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		486A443C21587E70008B16C7 /* SettingVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486A443B21587E70008B16C7 /* SettingVC.swift */; };
+		488E223A214B3FD900622430 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488E2239214B3FD900622430 /* AppDelegate.swift */; };
+		488E223C214B3FD900622430 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488E223B214B3FD900622430 /* ViewController.swift */; };
+		488E223F214B3FD900622430 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 488E223D214B3FD900622430 /* Main.storyboard */; };
+		488E2242214B3FD900622430 /* BudMan2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 488E2240214B3FD900622430 /* BudMan2.xcdatamodeld */; };
+		488E2244214B3FD900622430 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 488E2243214B3FD900622430 /* Assets.xcassets */; };
+		488E2247214B3FD900622430 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 488E2245214B3FD900622430 /* LaunchScreen.storyboard */; };
+		488E2252214B3FDA00622430 /* BudMan2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488E2251214B3FDA00622430 /* BudMan2Tests.swift */; };
+		488E225D214B3FDA00622430 /* BudMan2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488E225C214B3FDA00622430 /* BudMan2UITests.swift */; };
+		488E226D214B405E00622430 /* PastVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488E226C214B405E00622430 /* PastVC.swift */; };
+		488E226F214B406B00622430 /* StatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488E226E214B406B00622430 /* StatVC.swift */; };
+		488E2273214B408C00622430 /* AllocFinVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488E2272214B408C00622430 /* AllocFinVC.swift */; };
+		488E2275214B409E00622430 /* RecordExVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488E2274214B409E00622430 /* RecordExVC.swift */; };
+		488E2277214B40B200622430 /* BudgetAlloc2VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488E2276214B40B100622430 /* BudgetAlloc2VC.swift */; };
+		488E2279214B40C500622430 /* BudgetAlloc1VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488E2278214B40C500622430 /* BudgetAlloc1VC.swift */; };
+		488E227B214B5F5D00622430 /* ExpenseTBVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488E227A214B5F5D00622430 /* ExpenseTBVC.swift */; };
+		48971103216751BB00510208 /* coins-1857222_960_720.png in Resources */ = {isa = PBXBuildFile; fileRef = 48971102216751BB00510208 /* coins-1857222_960_720.png */; };
+		48971105216751C000510208 /* wrxCoin.9d1266c9.png in Resources */ = {isa = PBXBuildFile; fileRef = 48971104216751C000510208 /* wrxCoin.9d1266c9.png */; };
+		489711072167528C00510208 /* no-money-png-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 489711062167528C00510208 /* no-money-png-3.png */; };
+		48C3B3E521533946009715B6 /* AddBudVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C3B3E421533946009715B6 /* AddBudVC.swift */; };
+		48C994732152217300FC9C26 /* Barchart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C994722152217300FC9C26 /* Barchart.swift */; };
+		48C99477215222A400FC9C26 /* barstruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C99476215222A400FC9C26 /* barstruct.swift */; };
+		48C994792152369B00FC9C26 /* CurveBarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48C994782152369B00FC9C26 /* CurveBarChart.swift */; };
+		50D7AE65DD5D3B48D60424D8 /* Pods_BudMan2Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57E85BE6DC1ABA376F1F0E5B /* Pods_BudMan2Tests.framework */; };
+		5BB6444F3CF8639FAF01E6CD /* Pods_BudMan2.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBBD985FB7FCEC803F1D5258 /* Pods_BudMan2.framework */; };
+		63563518DFBBA038067136F8 /* Pods_BudMan2UITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EC44FCB00D624F603D20F110 /* Pods_BudMan2UITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		488E224E214B3FDA00622430 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 488E222E214B3FD900622430 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 488E2235214B3FD900622430;
+			remoteInfo = BudMan2;
+		};
+		488E2259214B3FDA00622430 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 488E222E214B3FD900622430 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 488E2235214B3FD900622430;
+			remoteInfo = BudMan2;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		161CA47E4F8C741EE29B9B5F /* Pods-BudMan2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BudMan2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BudMan2/Pods-BudMan2.debug.xcconfig"; sourceTree = "<group>"; };
+		3DB77C6064ED800ED28F3568 /* Pods-BudMan2Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BudMan2Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BudMan2Tests/Pods-BudMan2Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		4815CB6321661BA90062E6F8 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		4815CB6421661BA90062E6F8 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		486A443B21587E70008B16C7 /* SettingVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingVC.swift; sourceTree = "<group>"; };
+		488E2236214B3FD900622430 /* BudMan2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BudMan2.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		488E2239214B3FD900622430 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		488E223B214B3FD900622430 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		488E223E214B3FD900622430 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		488E2241214B3FD900622430 /* BudMan2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BudMan2.xcdatamodel; sourceTree = "<group>"; };
+		488E2243214B3FD900622430 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		488E2246214B3FD900622430 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		488E2248214B3FD900622430 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		488E224D214B3FDA00622430 /* BudMan2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BudMan2Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		488E2251214B3FDA00622430 /* BudMan2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudMan2Tests.swift; sourceTree = "<group>"; };
+		488E2253214B3FDA00622430 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		488E2258214B3FDA00622430 /* BudMan2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BudMan2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		488E225C214B3FDA00622430 /* BudMan2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BudMan2UITests.swift; sourceTree = "<group>"; };
+		488E225E214B3FDA00622430 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		488E226C214B405E00622430 /* PastVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PastVC.swift; sourceTree = "<group>"; };
+		488E226E214B406B00622430 /* StatVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StatVC.swift; sourceTree = "<group>"; };
+		488E2272214B408C00622430 /* AllocFinVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AllocFinVC.swift; sourceTree = "<group>"; };
+		488E2274214B409E00622430 /* RecordExVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecordExVC.swift; sourceTree = "<group>"; };
+		488E2276214B40B100622430 /* BudgetAlloc2VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BudgetAlloc2VC.swift; sourceTree = "<group>"; };
+		488E2278214B40C500622430 /* BudgetAlloc1VC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BudgetAlloc1VC.swift; sourceTree = "<group>"; };
+		488E227A214B5F5D00622430 /* ExpenseTBVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExpenseTBVC.swift; sourceTree = "<group>"; };
+		48971102216751BB00510208 /* coins-1857222_960_720.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "coins-1857222_960_720.png"; path = "../Images/coins-1857222_960_720.png"; sourceTree = "<group>"; };
+		48971104216751C000510208 /* wrxCoin.9d1266c9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = wrxCoin.9d1266c9.png; path = ../Images/wrxCoin.9d1266c9.png; sourceTree = "<group>"; };
+		489711062167528C00510208 /* no-money-png-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "no-money-png-3.png"; path = "../Images/no-money-png-3.png"; sourceTree = "<group>"; };
+		48C3B3E421533946009715B6 /* AddBudVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBudVC.swift; sourceTree = "<group>"; };
+		48C994722152217300FC9C26 /* Barchart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Barchart.swift; sourceTree = "<group>"; };
+		48C99476215222A400FC9C26 /* barstruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = barstruct.swift; sourceTree = "<group>"; };
+		48C994782152369B00FC9C26 /* CurveBarChart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurveBarChart.swift; sourceTree = "<group>"; };
+		57E85BE6DC1ABA376F1F0E5B /* Pods_BudMan2Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BudMan2Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		62C21925E3F0EB371D880966 /* Pods-BudMan2UITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BudMan2UITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BudMan2UITests/Pods-BudMan2UITests.release.xcconfig"; sourceTree = "<group>"; };
+		6F9B462E9BD914026B6BED14 /* Pods-BudMan2UITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BudMan2UITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BudMan2UITests/Pods-BudMan2UITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9F1DB9952C5E27ACCD5EF661 /* Pods-BudMan2Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BudMan2Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BudMan2Tests/Pods-BudMan2Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CBBD985FB7FCEC803F1D5258 /* Pods_BudMan2.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BudMan2.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D1F0D802788C1DA3EEB4111D /* Pods-BudMan2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BudMan2.release.xcconfig"; path = "Pods/Target Support Files/Pods-BudMan2/Pods-BudMan2.release.xcconfig"; sourceTree = "<group>"; };
+		EC44FCB00D624F603D20F110 /* Pods_BudMan2UITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BudMan2UITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		488E2233214B3FD900622430 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BB6444F3CF8639FAF01E6CD /* Pods_BudMan2.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		488E224A214B3FDA00622430 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50D7AE65DD5D3B48D60424D8 /* Pods_BudMan2Tests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		488E2255214B3FDA00622430 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63563518DFBBA038067136F8 /* Pods_BudMan2UITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4835FCAE215355CF00B2C38E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				48C994782152369B00FC9C26 /* CurveBarChart.swift */,
+				48C994722152217300FC9C26 /* Barchart.swift */,
+				488E227A214B5F5D00622430 /* ExpenseTBVC.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4835FCAF215355EA00B2C38E /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				48C99476215222A400FC9C26 /* barstruct.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		488E222D214B3FD900622430 = {
+			isa = PBXGroup;
+			children = (
+				488E2238214B3FD900622430 /* BudMan2 */,
+				488E2250214B3FDA00622430 /* BudMan2Tests */,
+				488E225B214B3FDA00622430 /* BudMan2UITests */,
+				488E2237214B3FD900622430 /* Products */,
+				C2B0FF0470C305DAE2297A82 /* Pods */,
+				84F07CB41ACA485DF2B653CA /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		488E2237214B3FD900622430 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				488E2236214B3FD900622430 /* BudMan2.app */,
+				488E224D214B3FDA00622430 /* BudMan2Tests.xctest */,
+				488E2258214B3FDA00622430 /* BudMan2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		488E2238214B3FD900622430 /* BudMan2 */ = {
+			isa = PBXGroup;
+			children = (
+				48971101216751AF00510208 /* Pictures */,
+				4835FCAF215355EA00B2C38E /* Model */,
+				4835FCAE215355CF00B2C38E /* View */,
+				48C994752152220400FC9C26 /* Controller */,
+				488E2239214B3FD900622430 /* AppDelegate.swift */,
+				488E2243214B3FD900622430 /* Assets.xcassets */,
+				488E2245214B3FD900622430 /* LaunchScreen.storyboard */,
+				488E223D214B3FD900622430 /* Main.storyboard */,
+				488E2248214B3FD900622430 /* Info.plist */,
+				488E2240214B3FD900622430 /* BudMan2.xcdatamodeld */,
+			);
+			path = BudMan2;
+			sourceTree = "<group>";
+		};
+		488E2250214B3FDA00622430 /* BudMan2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				488E2251214B3FDA00622430 /* BudMan2Tests.swift */,
+				488E2253214B3FDA00622430 /* Info.plist */,
+			);
+			path = BudMan2Tests;
+			sourceTree = "<group>";
+		};
+		488E225B214B3FDA00622430 /* BudMan2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				488E225C214B3FDA00622430 /* BudMan2UITests.swift */,
+				488E225E214B3FDA00622430 /* Info.plist */,
+			);
+			path = BudMan2UITests;
+			sourceTree = "<group>";
+		};
+		48971101216751AF00510208 /* Pictures */ = {
+			isa = PBXGroup;
+			children = (
+				48971104216751C000510208 /* wrxCoin.9d1266c9.png */,
+				48971102216751BB00510208 /* coins-1857222_960_720.png */,
+				489711062167528C00510208 /* no-money-png-3.png */,
+			);
+			name = Pictures;
+			sourceTree = "<group>";
+		};
+		48C994752152220400FC9C26 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				488E226E214B406B00622430 /* StatVC.swift */,
+				488E226C214B405E00622430 /* PastVC.swift */,
+				488E2272214B408C00622430 /* AllocFinVC.swift */,
+				488E2278214B40C500622430 /* BudgetAlloc1VC.swift */,
+				488E2276214B40B100622430 /* BudgetAlloc2VC.swift */,
+				488E2274214B409E00622430 /* RecordExVC.swift */,
+				488E223B214B3FD900622430 /* ViewController.swift */,
+				48C3B3E421533946009715B6 /* AddBudVC.swift */,
+				486A443B21587E70008B16C7 /* SettingVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		84F07CB41ACA485DF2B653CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CBBD985FB7FCEC803F1D5258 /* Pods_BudMan2.framework */,
+				57E85BE6DC1ABA376F1F0E5B /* Pods_BudMan2Tests.framework */,
+				EC44FCB00D624F603D20F110 /* Pods_BudMan2UITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C2B0FF0470C305DAE2297A82 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				161CA47E4F8C741EE29B9B5F /* Pods-BudMan2.debug.xcconfig */,
+				D1F0D802788C1DA3EEB4111D /* Pods-BudMan2.release.xcconfig */,
+				3DB77C6064ED800ED28F3568 /* Pods-BudMan2Tests.debug.xcconfig */,
+				9F1DB9952C5E27ACCD5EF661 /* Pods-BudMan2Tests.release.xcconfig */,
+				6F9B462E9BD914026B6BED14 /* Pods-BudMan2UITests.debug.xcconfig */,
+				62C21925E3F0EB371D880966 /* Pods-BudMan2UITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		488E2235214B3FD900622430 /* BudMan2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 488E2261214B3FDA00622430 /* Build configuration list for PBXNativeTarget "BudMan2" */;
+			buildPhases = (
+				8DCF252A282C37BFCFB9F09B /* [CP] Check Pods Manifest.lock */,
+				488E2232214B3FD900622430 /* Sources */,
+				488E2233214B3FD900622430 /* Frameworks */,
+				488E2234214B3FD900622430 /* Resources */,
+				CABFFD2937036081D07694B6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BudMan2;
+			productName = BudMan2;
+			productReference = 488E2236214B3FD900622430 /* BudMan2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		488E224C214B3FDA00622430 /* BudMan2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 488E2264214B3FDA00622430 /* Build configuration list for PBXNativeTarget "BudMan2Tests" */;
+			buildPhases = (
+				E953826A715E3C024E34C36D /* [CP] Check Pods Manifest.lock */,
+				488E2249214B3FDA00622430 /* Sources */,
+				488E224A214B3FDA00622430 /* Frameworks */,
+				488E224B214B3FDA00622430 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				488E224F214B3FDA00622430 /* PBXTargetDependency */,
+			);
+			name = BudMan2Tests;
+			productName = BudMan2Tests;
+			productReference = 488E224D214B3FDA00622430 /* BudMan2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		488E2257214B3FDA00622430 /* BudMan2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 488E2267214B3FDA00622430 /* Build configuration list for PBXNativeTarget "BudMan2UITests" */;
+			buildPhases = (
+				7BE43E596A33B50D30D60792 /* [CP] Check Pods Manifest.lock */,
+				488E2254214B3FDA00622430 /* Sources */,
+				488E2255214B3FDA00622430 /* Frameworks */,
+				488E2256214B3FDA00622430 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				488E225A214B3FDA00622430 /* PBXTargetDependency */,
+			);
+			name = BudMan2UITests;
+			productName = BudMan2UITests;
+			productReference = 488E2258214B3FDA00622430 /* BudMan2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		488E222E214B3FD900622430 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "YOON YEE SENG";
+				TargetAttributes = {
+					488E2235214B3FD900622430 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					488E224C214B3FDA00622430 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 488E2235214B3FD900622430;
+					};
+					488E2257214B3FDA00622430 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 488E2235214B3FD900622430;
+					};
+				};
+			};
+			buildConfigurationList = 488E2231214B3FD900622430 /* Build configuration list for PBXProject "BudMan2" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 488E222D214B3FD900622430;
+			productRefGroup = 488E2237214B3FD900622430 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				488E2235214B3FD900622430 /* BudMan2 */,
+				488E224C214B3FDA00622430 /* BudMan2Tests */,
+				488E2257214B3FDA00622430 /* BudMan2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		488E2234214B3FD900622430 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				488E2247214B3FD900622430 /* LaunchScreen.storyboard in Resources */,
+				48971105216751C000510208 /* wrxCoin.9d1266c9.png in Resources */,
+				488E2244214B3FD900622430 /* Assets.xcassets in Resources */,
+				48971103216751BB00510208 /* coins-1857222_960_720.png in Resources */,
+				488E223F214B3FD900622430 /* Main.storyboard in Resources */,
+				489711072167528C00510208 /* no-money-png-3.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		488E224B214B3FDA00622430 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		488E2256214B3FDA00622430 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7BE43E596A33B50D30D60792 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BudMan2UITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DCF252A282C37BFCFB9F09B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BudMan2-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CABFFD2937036081D07694B6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BudMan2/Pods-BudMan2-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/RKPieChart/RKPieChart.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RKPieChart.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BudMan2/Pods-BudMan2-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E953826A715E3C024E34C36D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BudMan2Tests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		488E2232214B3FD900622430 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				488E227B214B5F5D00622430 /* ExpenseTBVC.swift in Sources */,
+				486A443C21587E70008B16C7 /* SettingVC.swift in Sources */,
+				48C3B3E521533946009715B6 /* AddBudVC.swift in Sources */,
+				488E2275214B409E00622430 /* RecordExVC.swift in Sources */,
+				488E226D214B405E00622430 /* PastVC.swift in Sources */,
+				488E2277214B40B200622430 /* BudgetAlloc2VC.swift in Sources */,
+				488E2279214B40C500622430 /* BudgetAlloc1VC.swift in Sources */,
+				488E223C214B3FD900622430 /* ViewController.swift in Sources */,
+				488E2273214B408C00622430 /* AllocFinVC.swift in Sources */,
+				48C994732152217300FC9C26 /* Barchart.swift in Sources */,
+				488E223A214B3FD900622430 /* AppDelegate.swift in Sources */,
+				48C994792152369B00FC9C26 /* CurveBarChart.swift in Sources */,
+				48C99477215222A400FC9C26 /* barstruct.swift in Sources */,
+				488E226F214B406B00622430 /* StatVC.swift in Sources */,
+				488E2242214B3FD900622430 /* BudMan2.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		488E2249214B3FDA00622430 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				488E2252214B3FDA00622430 /* BudMan2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		488E2254214B3FDA00622430 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				488E225D214B3FDA00622430 /* BudMan2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		488E224F214B3FDA00622430 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 488E2235214B3FD900622430 /* BudMan2 */;
+			targetProxy = 488E224E214B3FDA00622430 /* PBXContainerItemProxy */;
+		};
+		488E225A214B3FDA00622430 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 488E2235214B3FD900622430 /* BudMan2 */;
+			targetProxy = 488E2259214B3FDA00622430 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		488E223D214B3FD900622430 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				488E223E214B3FD900622430 /* Base */,
+				4815CB6421661BA90062E6F8 /* ja */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		488E2245214B3FD900622430 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				488E2246214B3FD900622430 /* Base */,
+				4815CB6321661BA90062E6F8 /* ja */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		488E225F214B3FDA00622430 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		488E2260214B3FDA00622430 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		488E2262214B3FDA00622430 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 161CA47E4F8C741EE29B9B5F /* Pods-BudMan2.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BudMan2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yys.BudMan2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		488E2263214B3FDA00622430 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1F0D802788C1DA3EEB4111D /* Pods-BudMan2.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BudMan2/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yys.BudMan2;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		488E2265214B3FDA00622430 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DB77C6064ED800ED28F3568 /* Pods-BudMan2Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BudMan2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yys.BudMan2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BudMan2.app/BudMan2";
+			};
+			name = Debug;
+		};
+		488E2266214B3FDA00622430 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F1DB9952C5E27ACCD5EF661 /* Pods-BudMan2Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BudMan2Tests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yys.BudMan2Tests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BudMan2.app/BudMan2";
+			};
+			name = Release;
+		};
+		488E2268214B3FDA00622430 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F9B462E9BD914026B6BED14 /* Pods-BudMan2UITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = BudMan2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yys.BudMan2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BudMan2;
+			};
+			name = Debug;
+		};
+		488E2269214B3FDA00622430 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 62C21925E3F0EB371D880966 /* Pods-BudMan2UITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = BudMan2UITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = yys.BudMan2UITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BudMan2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		488E2231214B3FD900622430 /* Build configuration list for PBXProject "BudMan2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				488E225F214B3FDA00622430 /* Debug */,
+				488E2260214B3FDA00622430 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		488E2261214B3FDA00622430 /* Build configuration list for PBXNativeTarget "BudMan2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				488E2262214B3FDA00622430 /* Debug */,
+				488E2263214B3FDA00622430 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		488E2264214B3FDA00622430 /* Build configuration list for PBXNativeTarget "BudMan2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				488E2265214B3FDA00622430 /* Debug */,
+				488E2266214B3FDA00622430 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		488E2267214B3FDA00622430 /* Build configuration list for PBXNativeTarget "BudMan2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				488E2268214B3FDA00622430 /* Debug */,
+				488E2269214B3FDA00622430 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		488E2240214B3FD900622430 /* BudMan2.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				488E2241214B3FD900622430 /* BudMan2.xcdatamodel */,
+			);
+			currentVersion = 488E2241214B3FD900622430 /* BudMan2.xcdatamodel */;
+			path = BudMan2.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 488E222E214B3FD900622430 /* Project object */;
+}
